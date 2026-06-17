@@ -1,0 +1,25 @@
+{
+  "name": "landing-page-os-bridgertons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style/main.sass:style/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tauanecustodio/landing-page-os-bridgertons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tauanecustodio/landing-page-os-bridgertons/issues"
+  },
+  "homepage": "https://github.com/tauanecustodio/landing-page-os-bridgertons#readme",
+  "dependencies": {
+    "sass": "^1.101.0"
+  }
+}
