@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/main.css">
+    <title>Os Bridgertons</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Os Bridgertons</h1>
+            <ul class="header__nav">
+                <li class="header__nav-item">
+                    <a href="#inicio">Início</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#livros">Livros</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#temporadas">Temporadas</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#personagens">Personagens</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#assistir">Onde assistir</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#perguntas">Perguntas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="main__hero" id="inicio">
+            <div class="container">
+                <h2 class="main__hero-title">Bem-vindo ao mundo dos Bridgertons</h2>
+                <p class="main__hero-description">
+                    Descubra a história, os personagens e os episódios da série de sucesso "Os Bridgertons". Mergulhe no universo da alta sociedade londrina do século XIX e acompanhe as intrigas, romances e segredos da família Bridgerton.
+                </p>
+                <img src="assets/cover-bridgerton-familia.jpg" alt="Imagem da família Bridgerton" class="main__hero-image">
+            </div>
+        </section>
+
+        <section class="main__books" id="livros">
+            <div class="container">
+                <h2 class="main__books-title">Livros</h2>
+                <p class="main__books-description">
+                    A série "Os Bridgertons" é baseada nos livros escritos por Julia Quinn. Cada temporada da série é inspirada em um dos livros da série, que conta a história de cada um dos irmãos Bridgerton. Descubra mais sobre os livros e como eles se relacionam com a série.
+                </p>
+                <ul class="main__books-list">
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro1.jpg" alt="Capa do Livro 1" class="main__books-image">
+                        <span>O duque e eu</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro2.jpg" alt="Capa do Livro 2" class="main__books-image">
+                        <span>O visconde que me amava</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro3.jpg" alt="Capa do Livro 3" class="main__books-image">
+                        <span>Um perfeito cavalheiro</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro4.jpg" alt="Capa do Livro 4" class="main__books-image">
+                        <span>Os segredos de Colin Bridgerton</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro5.jpg" alt="Capa do Livro 5" class="main__books-image">
+                        <span>Para Sir Phillip, com amor</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro6.jpg" alt="Capa do Livro 6" class="main__books-image">
+                        <span>O conde enfeitiçado</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro7.jpg" alt="Capa do Livro 7" class="main__books-image">
+                        <span>Um beijo inesquecível</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro8.jpg" alt="Capa do Livro 8" class="main__books-image">
+                        <span>A caminho do altar</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro9.jpg" alt="Capa do Livro 9" class="main__books-image">
+                        <span>E viveram felizes para sempre</span>
+                    </li>
+                    <li class="main__books-item">
+                        <img src="assets/livros/livro-rainha-charlotte.jpg" alt="Capa do Livro Rainha Charlotte" class="main__books-image">
+                        <span>Rainha Charlotte</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main__seasons" id="temporadas">
+            <div class="container">
+                <h2 class="main__seasons-title">Temporadas</h2>
+                <div class="main__seasons-container">
+                    <ul class="main__seasons-btn-list">
+                        <li>
+                            <button data-target="season1" class="main__seasons-btn-item active">Temporada 1</button>
+                        </li>
+                        <li>
+                            <button data-target="season2" class="main__seasons-btn-item">Temporada 2</button>
+                        </li>
+                        <li>
+                            <button data-target="season3" class="main__seasons-btn-item">Temporada 3</button>
+                        </li>
+                        <li>
+                            <button data-target="season4" class="main__seasons-btn-item">Temporada 4</button>
+                        </li>
+                        <li>
+                            <button data-target="season5" class="main__seasons-btn-item">Temporada 5</button>
+                        </li>
+                        <li>
+                            <button data-target="season6" class="main__seasons-btn-item">Rainha Charlotte</button>
+                        </li>
+                    </ul>
+                    <ul class="main__seasons-list">
+                        <li class="main__seasons-item active" id="season1">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">O duque e eu</h3>
+
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-primeira-temporada.jpg" alt="Imagem da Temporada 1" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Em meio aos luxuosos bailes e às rígidas regras da alta sociedade londrina, Daphne Bridgerton inicia sua busca por um casamento adequado. Entre expectativas familiares, pressões sociais e os comentários da enigmática Lady Whistledown, ela descobre que encontrar o amor pode ser muito mais complicado do que imaginava.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main__seasons-item" id="season2">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">O visconde que me amava</h3>
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-segunda-temporada.jpg" alt="Imagem da Temporada 2" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Anthony Bridgerton decide que chegou a hora de cumprir seu dever como chefe da família e encontrar uma esposa. Contudo, seus planos cuidadosamente elaborados começam a ruir quando uma nova família chega a Londres, despertando sentimentos que desafiam suas convicções e colocam razão e emoção em conflito.
+                                </p>
+                            </div>
+                            
+                        </li>
+                        <li class="main__seasons-item" id="season3">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">Os segredos de Colin Bridgerton</h3>
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-terceira-temporada.jpg" alt="Imagem da Temporada 3" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Enquanto tenta redefinir seu lugar na sociedade, Penelope Featherington busca mais independência e confiança em si mesma. Ao mesmo tempo, Colin Bridgerton retorna de suas viagens com uma nova perspectiva sobre a vida, dando início a mudanças que afetam amizades antigas, segredos guardados e sentimentos há muito tempo ignorados.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main__seasons-item" id="season4">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">Um perfeito cavalheiro</h3>
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-quarta-temporada.jpg" alt="Imagem da Temporada 4" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Benedict Bridgerton, conhecido por seu espírito livre e artístico, não demonstra interesse em seguir o mesmo caminho de seus irmãos. Tudo muda após um encontro marcante durante um baile de máscaras, quando uma misteriosa mulher desperta sua curiosidade e o leva a questionar o rumo que deseja para sua vida.
+                                </p>
+                            </div>
+                            
+                        </li>
+                        <li class="main__seasons-item" id="season5">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">Temporada 5 - anunciada</h3>
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-quinta-temporada.jpg" alt="Imagem da Temporada 5" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Anos após acontecimentos que transformaram sua vida, Francesca Bridgerton enfrenta novas escolhas sobre amor, futuro e identidade. Entre expectativas sociais e emoções inesperadas, ela inicia uma jornada de autodescoberta que promete explorar um lado diferente do universo Bridgerton.
+                                </p>
+                            </div>
+                            
+                        </li>
+                        <li class="main__seasons-item" id="season6">
+                            <div class="main__seasons-item-header">
+                                <h3 class="main__seasons-title">Rainha Charlotte</h3>
+                            </div>
+                            <div class="main__seasons-item-content">
+                                <img src="assets/temporadas/capa-rainha-charlotte.jpg" alt="Imagem da Rainha Charlotte" class="main__seasons-image">
+                                <p class="main__seasons-description">
+                                    Muito antes dos eventos da série principal, a jovem Charlotte chega à corte britânica para um casamento que mudará seu destino. Sua trajetória revela os desafios da vida na realeza, a construção de relacionamentos que moldaram a sociedade retratada em Bridgerton e as origens de algumas das figuras mais influentes desse universo.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__characters" id="personagens">
+            <div class="container">
+                <h2 class="main__characters-title">Personagens</h2>
+                <p class="main__characters-description">
+                    Conheça os personagens principais da série "Os Bridgertons". Cada um deles tem uma história única e desempenha um papel importante na trama. Descubra mais sobre suas personalidades, relacionamentos e segredos.
+                </p>
+                <ul class="main__character-list">
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Daphne Bridgerton</h3>
+                        <img src="assets/personagens/personagem-daphne.webp" alt="Imagem da personagem Daphne Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            A filha mais velha da família Bridgerton é conhecida por sua gentileza, elegância e forte senso de dever. Sua história marca o início da série e sua entrada na alta sociedade londrina.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Anthony Bridgerton</h3>
+                        <img src="assets/personagens/personagem-antony.jpg" alt="Imagem da personagem Anthony Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Primogênito da família e portador do título de visconde, Anthony assume grandes responsabilidades após a morte do pai. Determinado e protetor, frequentemente coloca o dever acima dos próprios desejos.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Benedict Bridgerton</h3>
+                        <img src="assets/personagens/personagem-benedict.jpg" alt="Imagem da personagem Benedict Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Criativo e independente, Benedict possui uma visão diferente da vida em relação aos demais membros da família. Seu interesse pelas artes o leva a buscar seu próprio caminho.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Colin Bridgerton</h3>
+                        <img src="assets/personagens/personagem-colim.jpg" alt="Imagem da personagem Colin Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Carismático, aventureiro e otimista, Colin é conhecido por sua curiosidade sobre o mundo e pelo forte vínculo que mantém com familiares e amigos.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Eloise Bridgerton</h3>
+                        <img src="assets/personagens/personagem-eloise.jpg" alt="Imagem da personagem Eloise Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Questionadora e determinada, Eloise desafia as expectativas impostas às mulheres de sua época. Seu desejo por independência a torna uma das personagens mais marcantes da série.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Penelope Featherington</h3>
+                        <img src="assets/personagens/personagem-penelope.jpg" alt="Imagem da personagem Penelope Featherington" class="main__character-image">
+                        <p class="main__character-description">
+                            Inteligente, observadora e espirituosa, Penelope muitas vezes passa despercebida pela sociedade, mas possui uma influência maior do que muitos imaginam.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Francesca Bridgerton</h3>
+                        <img src="assets/personagens/personagem-francesca.jpg" alt="Imagem da personagem Francesca Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Reservada e sensível, Francesca prefere uma vida mais discreta do que a maioria de seus irmãos. Sua personalidade tranquila esconde grande profundidade emocional.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Violet Bridgerton</h3>
+                        <img src="assets/personagens/personagem-violet.jpg" alt="Imagem da personagem Violet Bridgerton" class="main__character-image">
+                        <p class="main__character-description">
+                            Mãe dos Bridgerton, Violet é uma figura amorosa e sábia que busca orientar seus filhos enquanto preserva os valores da família.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Lady Danbury</h3>
+                        <img src="assets/personagens/personagem-danbury.jpg" alt="Imagem da personagem Lady Danbury" class="main__character-image">
+                        <p class="main__character-description">
+                            Respeitada e influente, Lady Danbury é uma das mulheres mais poderosas da sociedade londrina. Sua inteligência e experiência fazem dela uma importante conselheira.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Rainha Charlotte</h3>
+                        <img src="assets/personagens/personagem-charlotte.jpg" alt="Imagem da personagem Rainha Charlotte" class="main__character-image">
+                        <p class="main__character-description">
+                            Monarca de personalidade forte e presença marcante, a rainha acompanha de perto os acontecimentos da alta sociedade e exerce grande influência sobre a vida dos nobres.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Simon Basset</h3>
+                        <img src="assets/personagens/personagem-simon.jpg" alt="Imagem da personagem Simon Basset" class="main__character-image">
+                        <p class="main__character-description">
+                            O enigmático Duque de Hastings é conhecido por seu charme, inteligência e passado complexo, tornando-se uma das figuras centrais dos primeiros acontecimentos da série.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Kate Sharma</h3>
+                        <img src="assets/personagens/personagem-kate.jpg" alt="Imagem da personagem Kate Sharma" class="main__character-image">
+                        <p class="main__character-description">
+                            Inteligente, determinada e extremamente protetora com sua família, Kate chega a Londres trazendo uma perspectiva diferente sobre as convenções sociais da época.
+                        </p>
+                    </li>
+                    <li class="main__character-item">
+                        <h3 class="main__character-name">Edwina Sharma</h3>
+                        <img src="assets/personagens/personagem-edwina.jpg" alt="Imagem da personagem Edwina Sharma" class="main__character-image">
+                        <p class="main__character-description">
+                            Gentil, educada e admirada pela sociedade, Edwina representa o ideal de jovem debutante e desempenha papel importante nos eventos da segunda temporada.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main__watch" id="assistir">
+            <div class="container">
+                <h2 class="main__watch-title">Onde Assistir</h2>
+                <p>
+                    "Os Bridgertons" está disponível para streaming na plataforma Netflix. Você pode assistir a todas as temporadas lá e mergulhar no universo da série a qualquer momento.
+                </p>
+                <p>Confira os trailers das temporadas:</p>
+                <div class="main__watch-container">
+                    <ul class="main__trailer-list">
+                        <li>
+                            <button data-target="trailer1" class="main__trailer-item active">Temporada 1</button>
+                        </li>
+                        <li>
+                            <button data-target="trailer2" class="main__trailer-item">Temporada 2</button>
+                        </li>
+                        <li>
+                            <button data-target="trailer3" class="main__trailer-item">Temporada 3</button>
+                        </li>
+                        <li>
+                            <button data-target="trailer4" class="main__trailer-item">Temporada 4</button>
+                        </li>
+                        <li>
+                            <button data-target="trailer5" class="main__trailer-item">Temporada 5</button>
+                        </li>
+                        <li>
+                            <button data-target="trailer6" class="main__trailer-item">Rainha Charlotte</button>
+                        </li>
+                    </ul>
+                    <a href="https://www.netflix.com/br/title/80232398" target="_blank" class="main__watch-link">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>  Ir para a Netflix</span>
+                    </a>
+                </div>
+
+                <div id="trailer1" class="main__trailer-video active">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pyi8QAlHR8k?si=CcHfyKe2HZbaugaS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="trailer2" class="main__trailer-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tLmBAtfDp6s?si=sl_EiyW5CqhtL43x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="trailer3" class="main__trailer-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sA6xIbcaZsw?si=zMhSfpmfkPXTCFZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                <div id="trailer4" class="main__trailer-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_5OH1J3uKYE?si=XTAIp-R4NqPCPyrq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                <div id="trailer5" class="main__trailer-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8lsUMTiCMBg?si=bQZymzHMVZchFc0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                <div id="trailer6" class="main__trailer-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5C0BhMZ9j9o?si=rJqCIxT-mUFYdHaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="main__qa" id="perguntas">
+            <div class="container">
+                <h2 class="main__qa-title">Perguntas Frequentes</h2>
+                <p class="main__qa-description">
+                    Tire suas dúvidas sobre a série "Os Bridgertons". Encontre respostas para as perguntas mais comuns e descubra mais sobre a trama e os personagens.
+                </p>
+                <ul class="main__qa-list">
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>Em que ano a história dos Bridgertons é ambientada?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            A série se passa durante a Era Regencial inglesa, entre 1811 e 1820.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>Bridgerton é historicamente fiel?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Parcialmente. A obra utiliza costumes, moda e tradições da época, mas toma diversas liberdades criativas para construir seu universo.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>O que era a "temporada social" retratada na série?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Era o período do ano em que a elite londrina promovia bailes, eventos e apresentações de jovens debutantes à sociedade.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>Os Bridgerton são baseados em uma família real?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Não, os Bridgerton são personagens fictícios criados por Julia Quinn para a série de romances.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>Por que os irmãos Bridgerton têm nomes em ordem alfabética?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Foi uma escolha criativa da autora para reforçar a identidade e a organização da família.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>A rainha mostrada na série existiu de verdade?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Sim, a personagem é baseada em Charlotte of Mecklenburg-Strelitz, esposa do rei George III.
+                        </p>
+                    </li>
+                    <li class="main__qa-item">
+                        <h3 class="main__qa-question">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <span>É necessário ler os livros na ordem de publicação?</span>
+                        </h3>
+                        <p class="main__qa-answer">
+                            Não obrigatoriamente, mas a leitura em ordem ajuda a acompanhar a evolução da família e das relações entre os personagens.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">
+                &copy; 2024 Os Bridgertons. Todos os direitos reservados.
+            </p>
+            <p class="footer__link">
+                Desenvolvido por
+                <a
+                href="https://github.com/tauanecustodio"
+                target="_blank"
+                title="Ir para o perfil do Github Tauane Custódio"
+                >Tauane Custódio
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
